@@ -1,0 +1,1 @@
+CREATE TABLE players (memberID int, firstName varchar(255), familyName varchar(255),  email varchar(255), phone int );

@@ -1,0 +1,1 @@
+CREATE TABLE BoardGames (boardGameID int, boardGame varchar(255), position varchar(255),  notes varchar(255), date date, event varchar(255), Primary Key(boardGamesID));

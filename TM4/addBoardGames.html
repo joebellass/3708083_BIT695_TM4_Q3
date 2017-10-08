@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<title>Add new Board game</title>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script type="text/Javascript"> src="validation.js" </script>
+<input type=button onClick="location.href='Index.html'" value='Main Menu'>
+</head>
+<body>
+     <form action="addBoardGame.php" method="post" onsubmit="ValidateBoardgameEntry" >
+        <h1>Add New Boadrgame</h1>
+                     <label>Board Game Description:</label>
+                    <input type="text" name="boardGame" id="bg"  /><br />
+                    <label>Position:</label>
+                    <input type="text" name="position" id="pos"  /><br />
+                    <label>Notes:</label>
+                    <input type="text" name="notes" id="notes"  /><br />
+                    <label>Date:</label>
+                    <input type="text" name="date" id="date"  /><br />
+                    <label>Event:</label>
+                    <input type="text" name="event" id="event"  /><br />
+
+            <input type="submit" value="submit" name="submit" /><br />
+            
+       </form>
+       
+       
+</body>
+
+<footer>
+
+   
+
+  <p>Board games aficionados</p><p>1970-2015</p>
+</footer>
+</html>
+
+
+

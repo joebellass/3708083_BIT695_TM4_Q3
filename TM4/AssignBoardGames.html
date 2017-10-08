@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<title>Assign Game to Member</title>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script type="text/Javascript"> src="validation.js" </script>
+<input type=button onClick="location.href='Index.html'" value='Main Menu'>
+</head>
+<body>
+     <form action="AssignGames.php" method="post" onsubmit="ValidateBoardgamesAssigned" >
+        <h1>Assign Boadrgame to Member</h1>
+             <label>Board Game ID:</label>
+                <input type="text" name="BoardGamesID" id="bgID" /><br />
+                     <label>Member ID:</label>
+                    <input type="text" name="memberID" id="memID"  /><br />
+                  
+            <input type="submit" value="submit" name="Assign Board Game" /><br />
+            
+       </form>
+       
+       
+</body>
+
+<footer>
+
+   
+
+  <p>Board games aficionados</p><p>1970-2015</p>
+</footer>
+</html>
+
+
+

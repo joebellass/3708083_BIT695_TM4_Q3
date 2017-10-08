@@ -1,0 +1,1 @@
+CREATE TABLE assignedToPlayers (AssignedGamesID int, boardGamesID int, memberID int, Primary key(AssignedGamesID), foreign Key(memberID) references players(memberID), foreign Key(boardGamesID) references boardgames(boardGamesID));

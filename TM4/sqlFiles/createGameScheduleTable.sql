@@ -1,0 +1,1 @@
+CREATE TABLE gamesSchedule (scheduleID int, boardGamesID int, venue varChar(100), date Date, Primary key(scheduleID), foreign Key(boardGamesID) references boardGames(boardGamesID));

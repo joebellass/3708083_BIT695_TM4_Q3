@@ -1,0 +1,1 @@
+CREATE TABLE score (scoreID int, totalScore int, date Date, boardGamesID int, memberID int, Primary key(scoreID), foreign Key(boardGamesID) references boardGames(boardGamesID), foreign key(memberID) references players(memberID));
